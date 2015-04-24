@@ -5,7 +5,11 @@ shinyUI(fluidPage(
   
   sidebarLayout(
     sidebarPanel(
-      helpText("Data is taken from the book Capital in the Twenty-First Century by the by French economist Thomas Piketty"),
+          helpText("Data is taken from the book Capital in the Twenty-First 
+               Century by the by French economist Thomas Piketty"),
+      helpText("Piketty claims that Income from capital is growing faster than income from labour, 
+               the inheritance rate is therefore important data for argumentation."),
+      helpText("Save the graphic by right clicking on the image."),
       
       sliderInput("years", 
                   label = h3("Years of interest:"),
